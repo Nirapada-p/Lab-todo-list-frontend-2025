@@ -1060,7 +1060,9 @@ npm run dev
 ## บันทึกรูปผลการทดลอง
 ```bash
 # บันทึกรูปผลการทดลองที่นี่
-``` 
+```
+<img width="1858" height="898" alt="image" src="https://github.com/user-attachments/assets/29a18a8b-3dbb-48ab-bd85-eea9d82576bf" />
+
 
 ### ขั้นตอนที่ 8.4: Test Build
 
