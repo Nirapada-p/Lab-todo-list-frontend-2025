@@ -1061,6 +1061,8 @@ npm run dev
 ```bash
 # บันทึกรูปผลการทดลองที่นี่
 ```
+<img width="1466" height="726" alt="image" src="https://github.com/user-attachments/assets/b15190d4-61c1-4520-aecb-61509894d19b" />
+
 <img width="1858" height="898" alt="image" src="https://github.com/user-attachments/assets/29a18a8b-3dbb-48ab-bd85-eea9d82576bf" />
 
 
