@@ -1179,6 +1179,8 @@ git push origin main
 ```bash
 # บันทึกรูปผลการ Deploy ที่นี่
 ```
+<img width="952" height="566" alt="image" src="https://github.com/user-attachments/assets/8a87d231-0026-476c-a6ba-443de3ca184d" />
+
 
 ### ขั้นตอนที่ 10.3: หา URL ของ Website
 
