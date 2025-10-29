@@ -1366,37 +1366,37 @@ todo-frontend/
 
 ### Pre-deployment Checklist
 
-- [ ] Node.js 18+ ติดตั้งแล้ว
-- [ ] Git ติดตั้งแล้ว
-- [ ] GitHub Account พร้อม
+- [✓ ] Node.js 18+ ติดตั้งแล้ว
+- [✓ ] Git ติดตั้งแล้ว
+- [✓ ] GitHub Account พร้อม
 - [ ] Backend API ทำงานปกติ
-- [ ] CORS ตั้งค่าถูกต้อง
+- [✓ ] CORS ตั้งค่าถูกต้อง
 
 ### Development Checklist
 
-- [ ] สร้างโปรเจกต์ Next.js
-- [ ] ติดตั้ง dependencies ครบ
+- [✓ ] สร้างโปรเจกต์ Next.js
+- [✓ ] ติดตั้ง dependencies ครบ
 - [ ] สร้าง API layer (`src/lib/api.js`)
-- [ ] สร้าง components ทั้ง 3 ตัว
-- [ ] สร้าง main page
+- [✓ ] สร้าง components ทั้ง 3 ตัว
+- [✓ ] สร้าง main page
 - [ ] แก้ไข styling
-- [ ] ทดสอบ local ผ่าน
+- [✓ ] ทดสอบ local ผ่าน
 
 ### Deployment Checklist
 
-- [ ] สร้าง GitHub repository
-- [ ] สร้าง workflow file
-- [ ] ตั้งค่า GitHub Pages
-- [ ] ตั้งค่า workflow permissions
-- [ ] อัพเดท API URL ใน workflow
-- [ ] Push code ไป GitHub
-- [ ] Workflow รันสำเร็จ
-- [ ] Website เข้าถึงได้
-- [ ] ทดสอบ features ครบ
+- [✓ ] สร้าง GitHub repository
+- [✓ ] สร้าง workflow file
+- [✓ ] ตั้งค่า GitHub Pages
+- [✓ ] ตั้งค่า workflow permissions
+- [✓ ] อัพเดท API URL ใน workflow
+- [✓ ] Push code ไป GitHub
+- [✓ ] Workflow รันสำเร็จ
+- [✓ ] Website เข้าถึงได้
+- [✓ ] ทดสอบ features ครบ
 
 ### Testing Checklist
 
-- [ ] เปิดหน้าเว็บได้
+- [✓ ] เปิดหน้าเว็บได้
 - [ ] API Status เป็น "Connected"
 - [ ] เพิ่ม Todo ได้
 - [ ] ลบ Todo ได้
@@ -1408,8 +1408,17 @@ todo-frontend/
 ## ส่วนที่ 15: คำถามท้ายการทดลอง
 
 1. **CI/CD Pipeline**: อธิบายขั้นตอนใน GitHub Actions workflow
-2. **CORS**: ทำไม Backend ต้อง enable CORS สำหรับ Frontend
-
+   Checkout – ดึงโค้ดจาก repo
+  Setup Node.js – เตรียมสภาพแวดล้อม
+  Install – ติดตั้ง dependencies
+  Lint & Build – ตรวจสอบและสร้างไฟล์ static (out/)
+  Upload Artifact – เก็บผลลัพธ์การ build
+  Deploy – ส่งขึ้น GitHub Pages
+  สรุป: Push โค้ด → Build → Deploy อัตโนมัติ
+3. **CORS**: ทำไม Backend ต้อง enable CORS สำหรับ Frontend
+  คือระบบที่ อนุญาตให้เว็บจากโดเมนหนึ่งเรียก API จากอีกโดเมนหนึ่งได้
+  เหตุผลที่ต้องใช้:Frontend (GitHub Pages) และ Backend (Render) อยู่คนละโดเมน
+  วิธีแก้:เปิดใช้ CORS ใน Flask เช่น
 
 ## ส่วนที่ 16: แหล่งข้อมูลเพิ่มเติม
 
@@ -1438,8 +1447,8 @@ todo-frontend/
 
 ## สรุป
 **URL ของนักศึกษาคือ**:
-- Frontend: `[https://your-username.github.io/todo-frontend/](https://nirapada-p.github.io/todo-frontend/)`
-- Backend: `[https://your-backend.onrender.com](https://flask-todo-app-cohx.onrender.com)`
+- Frontend: `(https://nirapada-p.github.io/todo-frontend/)`
+- Backend: `(https://flask-todo-app-cohx.onrender.com)`
 
 ---
 
