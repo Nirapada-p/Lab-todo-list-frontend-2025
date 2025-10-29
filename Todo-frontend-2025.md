@@ -1212,6 +1212,8 @@ https://your-username.github.io/todo-frontend/
 ```bash
 # บันทึกรูปผลการรันหน้า Front-end ที่นี่
 ```
+<img width="1747" height="952" alt="image" src="https://github.com/user-attachments/assets/1634bef1-e094-47cc-b959-3f7abdcf09ee" />
+
 
 ## ส่วนที่ 11: Troubleshooting
 
@@ -1436,8 +1438,8 @@ todo-frontend/
 
 ## สรุป
 **URL ของนักศึกษาคือ**:
-- Frontend: `https://your-username.github.io/todo-frontend/`
-- Backend: `https://your-backend.onrender.com`
+- Frontend: `[https://your-username.github.io/todo-frontend/](https://nirapada-p.github.io/todo-frontend/)`
+- Backend: `[https://your-backend.onrender.com](https://flask-todo-app-cohx.onrender.com)`
 
 ---
 
